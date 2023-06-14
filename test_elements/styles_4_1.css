@@ -1,0 +1,7 @@
+table, th, td {
+	border: 4px ridge black;
+	border-collapse:collapse;
+	border-style:ridge;
+	text-align:center;
+}
+
