@@ -1,0 +1,11 @@
+tr:nth-child(odd){
+	background-color:rgba(100,200,200,0.5);
+}
+th:nth-child(even), td:nth-child(even){
+	background-color:rgba(100,200,200,0.5);
+}
+th, td, tr{
+	border: 2px solid white;
+	border-collapse: collapse;
+}
+
