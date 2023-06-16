@@ -1,5 +1,4 @@
-tr {	
+td, th, tr {	
 	border-bottom: 2px solid black;
 	border-collapse: collapse;
-	border-width:70%;
 }
