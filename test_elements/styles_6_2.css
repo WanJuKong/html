@@ -1,0 +1,15 @@
+.c1 {
+	background-color:black;
+	color:white;
+	border:5px solid blue;
+	padding:15px;
+}
+
+.c2 {
+	color:skyblue;
+}
+
+.c3 {
+	background-color:yellow;
+	color:black;
+}

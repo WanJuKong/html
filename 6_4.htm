@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> practice 6_4 header&javascript </title>
+		<link rel="icon" type="x-image/icon" href="test_elements/test_icon.ico">
+<style>
+ul {
+	list-style-type:none;
+	overflow:hidden;
+}
+
+li button {
+	color:white;
+	background-color:lightgray;
+}
+
+li button:hover {
+	color:lightblue;
+	background-color:darkgray;
+}
+</style>
+
+	</head>
+	<body>
+		<h2 id="Header"> default text </h2>
+		<ul>
+			<li> <button onclick="b1()"> button 1 </button> </li>
+			<li> <button onclick="b2()"> button 2 </button> </li>
+		</ul>
+		<script>
+			function b1(){
+				document.getElementById("Header").innerHTML="button 1 pressed"
+			}
+
+			function b2(){
+				document.getElementById("Header").innerHTML="button 2 pressed"
+			}
+		</script>
+	</body>
+</html>
