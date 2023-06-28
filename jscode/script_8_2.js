@@ -1,16 +1,14 @@
-var p = 1;
-var srcc={
-        'cat':"test_elements/test_img.jpg",
-        'flower':"test_elements/test_img_2.jpg"
-};
-
-var altt={
-        '0':"to cat",
-        '1':"to flower"
-};
-
-function changeImg() {
-        document.getElementById('imgc').src = srcc['flower'];
-        document.getElementById('button_text')innerHTML() = altt['flower'];
-        p = (p++)%2;
+function changeImg(imageId,buttonId) {
+	let txt = document.getElementById(buttonId).innerHTML;
+	let src = 'test_elements/';
+	if(txt=='To cat'){
+		txt = 'To flower';
+		src += 'test_img_2.jpg';
+	}
+	else{
+		txt = 'To cat';
+		src += 'test_img.jpg';
+	}
+        document.getElementById(imageId).src = src;
+        document.getElementById(buttonId).innerHTML = txt;
 }
