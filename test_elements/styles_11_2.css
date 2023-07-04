@@ -1,0 +1,17 @@
+.a {
+	background:white;
+	float:left;
+	width:50%;
+}
+
+.b {
+	background:lightblue;
+	float:left;
+	width:50%
+}
+
+.ab {
+	background:black;
+	border:2px solid blue;
+	padding:10px;
+}
